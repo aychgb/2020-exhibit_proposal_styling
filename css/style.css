@@ -1,0 +1,53 @@
+/* || General styles 
+h1, h3 {
+  writing-mode: vertical-rl;
+  float: left;
+}
+
+*/
+
+body img {
+	width: 100%;
+
+}
+
+h1, h2, h3, p {
+	font-family: helvetica;
+
+
+}
+
+h1,h2 {
+	text-align-last: center;
+}
+
+#header-style, h1 .header-style {
+	font-size: 2rem;
+
+}
+
+.main-idea {
+	grid-template-areas:
+	'main-idea main-idea main-idea'
+	grid-area: main-idea;
+	font-size: 1.8rem;
+	font-style: italic;
+
+}
+
+.article-body, p {
+	font-size: 1.25rem;
+
+}
+
+/* || General styles end*/
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 20px;
+ 
+
+
+}
+
